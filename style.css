@@ -1,5 +1,112 @@
 /*COLORS:
 Header background - #FFDBAA
 button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+Header Text - #553100 dark brown
+Main background - #D4A76A   med brown */
+
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  background: #D4A76A;
+}
+
+nav {
+  background: #FFDBAA;
+  /* border: 3px solid green; */
+
+}
+.navbar {
+  /* border: 3px solid blue; */
+  margin-right: 50px
+}
+
+button {
+  color: white;
+  border: 1px solid black;
+  background: #805215;
+  font-size:1.25em;
+  height: 50px;
+  width: 90%;
+  text-align: center;
+}
+
+h1{
+  color: #553100;
+  /* border: 2px solid blue; */
+  padding-top: 20px;
+  margin-left: 50px;
+  flex:1;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  height: 125px;
+  background: #FFDBAA;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+li {
+  background: #805215;
+  color: white;
+  display: block;
+  float: right;
+  padding: 15px;
+  margin: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container {
+  box-shadow: 2px 2px 30px #222222;
+  text-align: center;
+  background: white;
+  height: 200px;
+  width: 400px;
+  diplay: flex;
+  margin: 70px;
+  margin-top: 50px;
+  flex: 1;
+}
+
+.bigbox {
+  box-shadow: 2px 2px 30px #222222;
+  background: white;
+  text-align: center;
+  margin: 0px 30px;
+
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.last-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+}
+
+.button-bottom {
+  text-align: center;
+  margin-bottom: 30px;
+  align-self: auto;
+  width: 90%;
+}
